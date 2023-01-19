@@ -17,7 +17,7 @@ def get_prediction_proba(docx):
 
 def main():
     st.title("How Are You Feeling?")
-    menu = ["Home", 'Monitor', 'About']
+    menu = ["Home", 'About']
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "Home":
@@ -51,12 +51,9 @@ def main():
                 fig = alt.Chart(proba_df_clean).mark_bar().encode(x='Emotions', y='Probaility (%)')
                 st.altair_chart(fig, use_container_width=True)
                 
-
-    elif choice == "Monitor":
-        st.subheader("Monitor App")
-
     else:
         st.subheader("About")
+        st.write("This is a simple text emotion classifier app deployed using streamlit made by Jay")
 
 if __name__ == "__main__":
     main()
