@@ -4,8 +4,13 @@ import altair as alt
 import pandas as pd 
 import numpy as np 
 import joblib 
+import sys
 
-pipeline_lib = joblib.load(open('models/emotion_classifier_pipe.pkl', 'rb'))
+sys.path.append("/Users/jaehyungshin/Documents/GitHub/Emotion-Text-Classifier-App/App")
+
+from function import preprocess_and_tokenize
+
+pipeline_lib = joblib.load(open('models/emotion_classifer_CLF.pkl', 'rb'))
 
 def predict_emotions(docx):
     results = pipeline_lib.predict([docx])
