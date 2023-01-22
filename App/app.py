@@ -22,7 +22,7 @@ def get_prediction_proba(docx):
 
 def main():
     st.title("How Are You Feeling?")
-    menu = ["Home", 'About']
+    menu = ["Home"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "Home":
