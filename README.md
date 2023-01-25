@@ -3,7 +3,7 @@
 <h2>Table of Contents </h2>
 
 1. <a href="#introduction">Introduction</a> 
-2. <a href="#project">The Project</a> 
+2. <a href="#project">Project Description</a> 
 3. <a href="#reference">References</a> 
 4. <a href="#acknowledgement">Acknowledgement</a></h4>
 
