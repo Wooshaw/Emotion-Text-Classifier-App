@@ -4,9 +4,7 @@
 
 1. <a href="#introduction">Introduction</a> 
 2. <a href="#project">Project Description</a> 
-3. <a href="#reference">References</a> 
-4. <a href="#acknowledgement">Acknowledgement</a></h4>
-
+3. <a href="#todo">TODO</a> 
   
 <h2 id="introduction">Introduction </h2>
 <p>Sentiment analysis from digital text has became one of the most popular topics to study in the fields of natural langugae processing. It is especially important for many businesses to better understand their customer when performing brand management, social media marketing, or survey analysis at scale. With the use of the large data of tweets and Facebook post online, I can use machine learning model to produce a meaningful outcome for business application.<p>
@@ -45,9 +43,6 @@ https://user-images.githubusercontent.com/102776898/214497118-8f982649-c5d1-46f3
 
 You will be able to view your Streamlit app in your browser.
 
-## TODO
+<h2 id="todo">TODOs </h2>
 
 1. Improve accuracy scores with dealing with imbalanced dataset
-
-
-
