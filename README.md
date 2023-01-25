@@ -1,6 +1,11 @@
 <center><h2>Emotion-Text-Classifier-App</h2></center>
 
-<h4><a href="#introduction">Introduction</a> | <a href="#project">The Project</a> | <a href="#reference">References</a> | <a href="#acknowledgement">Acknowledgement</a></h4>
+<h2>Table of Contents </h2>
+
+1. <h4><a href="#introduction">Introduction</a> 
+2. <a href="#project">The Project</a> 
+3. <a href="#reference">References</a> 
+4. <a href="#acknowledgement">Acknowledgement</a></h4>
 
   
 <h2 id="introduction">Introduction </h2>
