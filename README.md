@@ -21,4 +21,33 @@ This is a multi-class sentiment analysis project that classifies texts into eigh
 - Installation of libraries and packages included in the requirements.txt
 - Love for machine learning
 
-## Results
+### Results
+
+#### Data Cleaning 
+<img width="380" alt="Screen Shot 2023-01-25 at 12 17 46 AM" src="https://user-images.githubusercontent.com/102776898/214494068-00ae1419-f718-4595-a771-766cb12a64fe.png">
+
+- HTML markup, urls, hashtags, unnecessary punctuations and non-ascii digits, whitespaces were removed 
+- tokenized with nltk for later machine learning purpose
+
+#### Sample Model Building and Evaluation Process
+<img width="644" alt="Screen Shot 2023-01-25 at 12 22 03 AM" src="https://user-images.githubusercontent.com/102776898/214494661-757b1a99-3413-4f6b-a196-b0700fd18ad7.png">
+<img width="632" alt="Screen Shot 2023-01-25 at 12 22 47 AM" src="https://user-images.githubusercontent.com/102776898/214494758-fd16a49b-b3fb-4891-9186-d1606b78dcac.png">
+
+- Naive Bayes, Random Forest, Logistic Regression, and Linear Support Vector Machine Model were built using scikit-learn.
+- The peformance of each model was evaluated using accuracy score, F1 score and confusion matrix 
+- Support Vector Machine model scored the highest accuracy with the pipeline scoring accuracy score of 94.4%
+- The SVM model was saved 
+
+#### Running the Web App
+Open app.py and run the file using Streamlit by typing in 'streamlit run app.py' in your terminal!
+
+https://user-images.githubusercontent.com/102776898/214497118-8f982649-c5d1-46f3-87b9-f35c4c8d150b.mov
+
+You will be able to view your Streamlit app in your browser.
+
+## TODO
+
+1. Improve accuracy scores with dealing with imbalanced dataset
+
+
+
